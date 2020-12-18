@@ -1,0 +1,7 @@
+note over browser
+submit new note to local note array
+ask browser to re-render html
+send new note array to server
+end note
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa\n{"content":"test","date":"2020-12-18T21:55:50.935Z"}
+server-->browser: {"message":"note created"}
